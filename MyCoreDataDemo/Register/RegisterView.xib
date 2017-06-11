@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController" customModule="MyCoreDataDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="addButton" destination="zxJ-G1-DRP" id="2kz-po-cDP"/>
+                <outlet property="firstNameTextField" destination="1rZ-lp-9lF" id="mxi-BP-ttQ"/>
+                <outlet property="isbnTextField" destination="Ezh-Rp-7K2" id="6DP-tm-wVK"/>
+                <outlet property="lastNameTextField" destination="RwK-Hd-u8j" id="e1f-de-Wp0"/>
+                <outlet property="pagesTextField" destination="bn6-zP-u4l" id="jqH-TS-fAt"/>
+                <outlet property="titleTextField" destination="zE7-Lb-gBm" id="8Qy-5w-kgY"/>
+                <outlet property="view" destination="iN0-l3-epB" id="SYJ-AD-hVh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epO-83-pcq" userLabel="Title">
+                    <rect key="frame" x="22" y="88" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Titre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zE7-Lb-gBm" customClass="MyCustomTextField" customModule="MyCoreDataDemo" customModuleProvider="target">
+                    <rect key="frame" x="22" y="117" width="331" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="pc2-zS-xSz"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISBN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdO-gM-Flr">
+                    <rect key="frame" x="22" y="177" width="38" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ISBN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ezh-Rp-7K2" customClass="MyCustomTextField" customModule="MyCoreDataDemo" customModuleProvider="target">
+                    <rect key="frame" x="22" y="206" width="331" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="9yR-ZX-B9o"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJ0-dJ-cJv" userLabel="Pages">
+                    <rect key="frame" x="22" y="266" width="47" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pages" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bn6-zP-u4l" userLabel="Pages" customClass="MyCustomTextField" customModule="MyCoreDataDemo" customModuleProvider="target">
+                    <rect key="frame" x="22" y="295" width="60.5" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="by9-fZ-Lud"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auteur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOc-Ca-lje">
+                    <rect key="frame" x="22" y="355" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Prénom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1rZ-lp-9lF" customClass="MyCustomTextField" customModule="MyCoreDataDemo" customModuleProvider="target">
+                    <rect key="frame" x="22" y="384" width="331" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="hGI-oa-UaD"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RwK-Hd-u8j" customClass="MyCustomTextField" customModule="MyCoreDataDemo" customModuleProvider="target">
+                    <rect key="frame" x="22" y="444" width="331" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="WIi-wi-bDV"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxJ-G1-DRP" customClass="MyCustomButton" customModule="MyCoreDataDemo" customModuleProvider="target">
+                    <rect key="frame" x="22" y="543" width="120" height="40"/>
+                    <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ALr-Pc-Bl2"/>
+                        <constraint firstAttribute="width" constant="120" id="WRk-Jc-oGB"/>
+                    </constraints>
+                    <state key="normal" title="Ajouter">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addBook:" destination="-1" eventType="touchUpInside" id="a6Q-cI-IeK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="zE7-Lb-gBm" secondAttribute="trailing" constant="22" id="02J-Sl-g2o"/>
+                <constraint firstItem="zxJ-G1-DRP" firstAttribute="top" secondItem="RwK-Hd-u8j" secondAttribute="bottom" constant="59" id="4MT-wg-dER"/>
+                <constraint firstItem="RwK-Hd-u8j" firstAttribute="top" secondItem="1rZ-lp-9lF" secondAttribute="bottom" constant="20" id="Bhd-rj-t9A"/>
+                <constraint firstAttribute="trailing" secondItem="1rZ-lp-9lF" secondAttribute="trailing" constant="22" id="KU7-LR-rx6"/>
+                <constraint firstItem="eOc-Ca-lje" firstAttribute="top" secondItem="bn6-zP-u4l" secondAttribute="bottom" constant="20" id="LZ7-RE-pZp"/>
+                <constraint firstItem="bJ0-dJ-cJv" firstAttribute="leading" secondItem="epO-83-pcq" secondAttribute="leading" id="Mau-qf-gT5"/>
+                <constraint firstItem="1rZ-lp-9lF" firstAttribute="top" secondItem="eOc-Ca-lje" secondAttribute="bottom" constant="8" id="Omo-9l-TJa"/>
+                <constraint firstItem="1rZ-lp-9lF" firstAttribute="leading" secondItem="epO-83-pcq" secondAttribute="leading" id="OsS-su-26m"/>
+                <constraint firstItem="bdO-gM-Flr" firstAttribute="leading" secondItem="epO-83-pcq" secondAttribute="leading" id="UCo-2O-TuB"/>
+                <constraint firstItem="epO-83-pcq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="88" id="YqG-t6-5PT"/>
+                <constraint firstItem="Ezh-Rp-7K2" firstAttribute="top" secondItem="bdO-gM-Flr" secondAttribute="bottom" constant="8" id="ZDC-Ky-U9p"/>
+                <constraint firstItem="Ezh-Rp-7K2" firstAttribute="leading" secondItem="epO-83-pcq" secondAttribute="leading" id="aI6-R5-h4G"/>
+                <constraint firstItem="RwK-Hd-u8j" firstAttribute="leading" secondItem="epO-83-pcq" secondAttribute="leading" id="aIn-Rn-CBP"/>
+                <constraint firstItem="zE7-Lb-gBm" firstAttribute="leading" secondItem="epO-83-pcq" secondAttribute="leading" id="apf-JX-6lW"/>
+                <constraint firstAttribute="trailing" secondItem="bn6-zP-u4l" secondAttribute="trailing" constant="292" id="bLB-nE-bEn"/>
+                <constraint firstItem="bJ0-dJ-cJv" firstAttribute="top" secondItem="Ezh-Rp-7K2" secondAttribute="bottom" constant="20" id="dDt-wn-3Nv"/>
+                <constraint firstItem="zE7-Lb-gBm" firstAttribute="top" secondItem="epO-83-pcq" secondAttribute="bottom" constant="8" id="e6k-k9-v3q"/>
+                <constraint firstItem="bn6-zP-u4l" firstAttribute="leading" secondItem="epO-83-pcq" secondAttribute="leading" id="elt-ui-AFO"/>
+                <constraint firstAttribute="trailing" secondItem="RwK-Hd-u8j" secondAttribute="trailing" constant="22" id="f92-Fq-esb"/>
+                <constraint firstItem="bdO-gM-Flr" firstAttribute="top" secondItem="zE7-Lb-gBm" secondAttribute="bottom" constant="20" id="ghZ-sj-C1t"/>
+                <constraint firstItem="zxJ-G1-DRP" firstAttribute="leading" secondItem="epO-83-pcq" secondAttribute="leading" id="jkW-y6-XIX"/>
+                <constraint firstAttribute="trailing" secondItem="Ezh-Rp-7K2" secondAttribute="trailing" constant="22" id="kfM-tn-2d8"/>
+                <constraint firstItem="epO-83-pcq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="22" id="m9H-Wx-NbC"/>
+                <constraint firstItem="bn6-zP-u4l" firstAttribute="top" secondItem="bJ0-dJ-cJv" secondAttribute="bottom" constant="8" id="qoS-j7-w1h"/>
+                <constraint firstItem="eOc-Ca-lje" firstAttribute="leading" secondItem="epO-83-pcq" secondAttribute="leading" id="tCy-2z-P1X"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

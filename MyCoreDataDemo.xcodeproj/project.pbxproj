@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D981A09E1EE88D00008BAFFF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981A09D1EE88D00008BAFFF /* CustomCell.swift */; };
+		D981A0A01EE88D14008BAFFF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D981A09F1EE88D14008BAFFF /* CustomCell.xib */; };
+		D995C6C21EE89A4F00EC321B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995C6C11EE89A4F00EC321B /* RegisterViewController.swift */; };
+		D995C6C61EE89A7800EC321B /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D995C6C51EE89A7800EC321B /* RegisterView.xib */; };
+		D99A71951EE8474000626456 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99A71941EE8474000626456 /* MainViewController.swift */; };
+		D99A71971EE8475A00626456 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D99A71961EE8475A00626456 /* MainView.xib */; };
+		D9C3DB491EE96C8200873C3D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3DB481EE96C8200873C3D /* Util.swift */; };
 		D9DE3A931EE83BFA00E45CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE3A921EE83BFA00E45CAA /* AppDelegate.swift */; };
-		D9DE3A951EE83BFA00E45CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE3A941EE83BFA00E45CAA /* ViewController.swift */; };
-		D9DE3A981EE83BFA00E45CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DE3A961EE83BFA00E45CAA /* Main.storyboard */; };
 		D9DE3A9B1EE83BFA00E45CAA /* MyCoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9DE3A991EE83BFA00E45CAA /* MyCoreDataDemo.xcdatamodeld */; };
 		D9DE3A9D1EE83BFA00E45CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DE3A9C1EE83BFA00E45CAA /* Assets.xcassets */; };
 		D9DE3AA01EE83BFA00E45CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DE3A9E1EE83BFA00E45CAA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D981A09D1EE88D00008BAFFF /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		D981A09F1EE88D14008BAFFF /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		D995C6C11EE89A4F00EC321B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D995C6C51EE89A7800EC321B /* RegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		D99A71941EE8474000626456 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D99A71961EE8475A00626456 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		D9C3DB481EE96C8200873C3D /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		D9DE3A8F1EE83BFA00E45CAA /* MyCoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DE3A921EE83BFA00E45CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9DE3A941EE83BFA00E45CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D9DE3A971EE83BFA00E45CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9DE3A9A1EE83BFA00E45CAA /* MyCoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
 		D9DE3A9C1EE83BFA00E45CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DE3A9F1EE83BFA00E45CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D995C6C01EE89A1500EC321B /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D995C6C11EE89A4F00EC321B /* RegisterViewController.swift */,
+				D995C6C51EE89A7800EC321B /* RegisterView.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		D99A71921EE846E100626456 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D99A71931EE846EA00626456 /* Cell */,
+				D99A71941EE8474000626456 /* MainViewController.swift */,
+				D99A71961EE8475A00626456 /* MainView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D99A71931EE846EA00626456 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D981A09D1EE88D00008BAFFF /* CustomCell.swift */,
+				D981A09F1EE88D14008BAFFF /* CustomCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D9C3DB471EE96C6F00873C3D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D9C3DB481EE96C8200873C3D /* Util.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		D9DE3A861EE83BFA00E45CAA = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +102,10 @@
 		D9DE3A911EE83BFA00E45CAA /* MyCoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D9C3DB471EE96C6F00873C3D /* Utils */,
+				D99A71921EE846E100626456 /* Main */,
+				D995C6C01EE89A1500EC321B /* Register */,
 				D9DE3A921EE83BFA00E45CAA /* AppDelegate.swift */,
-				D9DE3A941EE83BFA00E45CAA /* ViewController.swift */,
-				D9DE3A961EE83BFA00E45CAA /* Main.storyboard */,
 				D9DE3A9C1EE83BFA00E45CAA /* Assets.xcassets */,
 				D9DE3A9E1EE83BFA00E45CAA /* LaunchScreen.storyboard */,
 				D9DE3AA11EE83BFA00E45CAA /* Info.plist */,
@@ -125,9 +172,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99A71971EE8475A00626456 /* MainView.xib in Resources */,
+				D995C6C61EE89A7800EC321B /* RegisterView.xib in Resources */,
 				D9DE3AA01EE83BFA00E45CAA /* LaunchScreen.storyboard in Resources */,
+				D981A0A01EE88D14008BAFFF /* CustomCell.xib in Resources */,
 				D9DE3A9D1EE83BFA00E45CAA /* Assets.xcassets in Resources */,
-				D9DE3A981EE83BFA00E45CAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99A71951EE8474000626456 /* MainViewController.swift in Sources */,
 				D9DE3A9B1EE83BFA00E45CAA /* MyCoreDataDemo.xcdatamodeld in Sources */,
-				D9DE3A951EE83BFA00E45CAA /* ViewController.swift in Sources */,
+				D9C3DB491EE96C8200873C3D /* Util.swift in Sources */,
+				D981A09E1EE88D00008BAFFF /* CustomCell.swift in Sources */,
+				D995C6C21EE89A4F00EC321B /* RegisterViewController.swift in Sources */,
 				D9DE3A931EE83BFA00E45CAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +199,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D9DE3A961EE83BFA00E45CAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9DE3A971EE83BFA00E45CAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D9DE3A9E1EE83BFA00E45CAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -186,6 +230,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -241,6 +287,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -316,6 +364,7 @@
 				D9DE3AA61EE83BFA00E45CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
